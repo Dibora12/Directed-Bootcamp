@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiNova - Empowering Innovation Through Smart Digital Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <div class="logo-shape"></div>
+                        <div class="logo-text">DigiNova</div>
+                    </div>
+                    <span class="tagline">Smart Digital Solutions</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact" class="cta-btn">Contact</a></li>
+                </ul>
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon" id="theme-icon"></i>
+                </button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-backgrounds">
+            <div class="hero-slide active">
+                <img src="/public/hero-bg-1.jpg" alt="African professionals coding" class="hero-image">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-slide">
+                <img src="/public/hero-bg-2.jpg" alt="Modern office collaboration" class="hero-image">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-slide">
+                <img src="/public/hero-bg-3.jpg" alt="Digital innovation workspace" class="hero-image">
+                <div class="hero-overlay"></div>
+            </div>
+        </div>
+        <div class="hero-indicators">
+            <button class="indicator active" data-slide="0"></button>
+            <button class="indicator" data-slide="1"></button>
+            <button class="indicator" data-slide="2"></button>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Empowering Innovation Through Smart Digital Solutions</h1>
+            <p class="hero-subtitle">Transforming businesses across Africa with cutting-edge technology and innovative
+                digital strategies</p>
+            <div class="hero-buttons">
+                <button class="btn-primary">Get Started</button>
+                <button class="btn-secondary">Learn More</button>
+            </div>
+        </div>
+        <div class="floating-elements">
+            <div class="floating-icon" style="top: 20%; left: 10%;">
+                <i class="fas fa-code"></i>
+            </div>
+            <div class="floating-icon" style="top: 60%; right: 15%;">
+                <i class="fas fa-mobile-alt"></i>
+            </div>
+            <div class="floating-icon" style="top: 30%; right: 25%;">
+                <i class="fas fa-brain"></i>
+            </div>
+            <div class="floating-icon" style="bottom: 30%; left: 20%;">
+                <i class="fas fa-cogs"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About DigiNova</h2>
+                <p>Leading the digital transformation across Africa</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="mission">
+                        <h3>Our Mission</h3>
+                        <p>To empower businesses and communities across Africa through innovative digital solutions that
+                            drive growth, efficiency, and sustainable development.</p>
+                    </div>
+                    <div class="vision">
+                        <h3>Our Vision</h3>
+                        <p>To become Africa's leading force in inclusive digital transformation, bridging the technology
+                            gap and creating opportunities for all.</p>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h4>100+</h4>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat">
+                        <h4>50+</h4>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="stat">
+                        <h4>5+</h4>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive digital solutions tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Software Development</h3>
+                    <p>Custom software solutions built with modern technologies to streamline your business operations.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Applications</h3>
+                    <p>Native and cross-platform mobile apps that engage users and drive business growth.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Process Automation</h3>
+                    <p>Intelligent automation solutions to optimize workflows and increase operational efficiency.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI Solutions</h3>
+                    <p>Cutting-edge artificial intelligence and machine learning solutions for data-driven insights.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Background Section -->
+    <section class="team-background">
+        <div class="team-overlay">
+            <img src="/images/hero-bg-2.png" alt="Diverse team of developers" class="team-image">
+        </div>
+        <div class="team-content">
+            <h2>Our Expert Team</h2>
+            <p>A diverse group of passionate developers, designers, and innovators working together to deliver
+                exceptional results.</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+                <p>Success stories from businesses we've helped transform</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="/placeholder.svg?height=60&width=60" alt="Client photo" class="client-photo">
+                        <div class="client-info">
+                            <h4>Sarah Okonkwo</h4>
+                            <p>CEO, TechStart Lagos</p>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"DigiNova transformed our business with their innovative mobile app. Our customer engagement
+                        increased by 300%!"</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="/placeholder.svg?height=60&width=60" alt="Client photo" class="client-photo">
+                        <div class="client-info">
+                            <h4>Michael Asante</h4>
+                            <p>Director, Ghana FinTech</p>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Their AI automation solution saved us 40 hours per week. Exceptional quality and professional
+                        service!"</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="/placeholder.svg?height=60&width=60" alt="Client photo" class="client-photo">
+                        <div class="client-info">
+                            <h4>Amina Hassan</h4>
+                            <p>Founder, EduTech Kenya</p>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"DigiNova's software development expertise helped us scale our platform to serve over 10,000
+                        students!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="contact" class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Business?</h2>
+                <p>Let's discuss how our digital solutions can drive your success</p>
+                <div class="cta-buttons">
+                    <button class="btn-primary">Book a Free Consultation</button>
+                    <button class="btn-secondary">View Our Portfolio</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-icon">
+                        <div class="logo-shape"></div>
+                        <div class="logo-text">DigiNova</div>
+                    </div>
+                    <p>Empowering Innovation Through Smart Digital Solutions</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">Software Development</a></li>
+                            <li><a href="#services">Mobile Apps</a></li>
+                            <li><a href="#services">Automation</a></li>
+                            <li><a href="#services">AI Solutions</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><i class="fas fa-envelope"></i> info@diginova.com</li>
+                            <li><i class="fas fa-phone"></i> +234 123 456 7890</li>
+                            <li><i class="fas fa-map-marker-alt"></i> Lagos, Nigeria</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DigiNova. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AI Chatbot -->
+    <div class="chatbot-container" id="chatbot">
+        <div class="chatbot-header">
+            <h4>DigiNova Assistant</h4>
+            <button class="chatbot-close" id="chatbot-close">&times;</button>
+        </div>
+        <div class="chatbot-messages" id="chatbot-messages">
+            <div class="message bot-message">
+                <p>Hello! I'm your DigiNova assistant. How can I help you today?</p>
+            </div>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" id="chatbot-input" placeholder="Type your message...">
+            <button id="chatbot-send"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <!-- Chatbot Toggle Button -->
+    <button class="chatbot-toggle" id="chatbot-toggle">
+        <i class="fas fa-comments"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
